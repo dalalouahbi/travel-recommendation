@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+
+  <input type="text" id="searchInput">
+  <button onclick="search()">Search</button>
+  <button onclick="clearResults()">Clear</button>
+</nav>
+
+
+<div class="about-bg">
+  <div class="about-overlay"></div>
+  <div class="about-main-content">
+    <h1 class="about-title">ABOUT US</h1>
+    <div class="about-intro">
+      <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to <b>provide the best experience</b> for people traveling to different destinations around the world.<br>
+      Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <b>putting our customers first</b> and <b>working together</b> to achieve our goals.<br>
+      Feel free to explore our website to learn more about what we offer!</p>
+    </div>
+    <div class="about-team-section">
+      <h2>Our Team</h2>
+      <div class="about-team-cards">
+        <div class="about-team-card">
+          <img src="avatar.jpg" alt="John Doe">
+          <div class="about-team-info">
+            <span class="about-team-name">John Doe</span>
+            <span class="about-team-role">CEO</span>
+            <p>John is responsible for ...</p>
+          </div>
+        </div>
+        <div class="about-team-card">
+          <img src="avatar.jpg" alt="Celina Thomas">
+          <div class="about-team-info">
+            <span class="about-team-name">Celina Thomas</span>
+            <span class="about-team-role">Team Lead</span>
+            <p>Celina Thomas is responsible for...</p>
+          </div>
+        </div>
+        <div class="about-team-card">
+          <img src="avatar.jpg" alt="Mike Tysen">
+          <div class="about-team-info">
+            <span class="about-team-name">Mike Tysen</span>
+            <span class="about-team-role">Delivery Head</span>
+            <p>Mike Tysen is responsible for...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-social">
+    <a href="#"><img src="twiter.png" alt="Twitter"></a>
+    <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
+    <a href="#"><img src="ig.jpg" alt="Instagram"></a>
+    <a href="#"><img src="youtube.png" alt="YouTube"></a>
+  </div>
+</div>
+<!-- Company History and Location at the end, inside about-bg for shared background -->
+<div class="about-bg">
+  <div class="about-overlay"></div>
+  <div class="about-history-section">
+    <h2 class="about-history-title">Company History</h2>
+    <p class="about-history-desc">Founded in 2018 by avid travelers, our journey began with a vision to simplify travel planning by offering personalized recommendations tailored to individual preferences. Starting as a passion project, our commitment to curating unique travel experiences led to the official launch of our platform, driven by a team enthusiastic about exploring the world. Over the years, we've evolved into a trusted hub, leveraging cutting-edge technology and expert insights to provide tailored destination suggestions that resonate with diverse travelers.</p>
+    <h2 class="about-location-title">Our Location</h2>
+    <div class="about-location-gallery">
+      <img src="casa.jpg" alt="Company Location 1">
+      <img src="CASA3.jpg" alt="Company Location 2">
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

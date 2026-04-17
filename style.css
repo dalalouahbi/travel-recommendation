@@ -1,0 +1,401 @@
+/* About History and Location Section */
+.about-history-section {
+  margin-top: 60px;
+  background: rgba(0,0,0,0.22);
+  border-radius: 14px;
+  padding: 36px 32px 32px 32px;
+  color: #fff !important;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-history-section * {
+  color: #fff !important;
+}
+.about-history-title, .about-location-title {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 18px;
+  margin-top: 0;
+  text-align: left;
+}
+.about-history-desc {
+  font-size: 1.13em;
+  margin-bottom: 32px;
+  text-align: left;
+  color: #e0e0e0;
+}
+.about-location-gallery {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.about-location-gallery img {
+  width: 420px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+  background: #fff;
+}
+/* About Us Redesign */
+.about-bg {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  background: url('image.jpg') center center/cover no-repeat;
+  overflow-x: hidden;
+}
+.about-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 38, 61, 0.55);
+  z-index: 1;
+}
+.about-main-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px 0 30px;
+  color: #fff;
+}
+.about-title {
+  font-size: 3.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.about-intro {
+  background: rgba(0,0,0,0.32);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-bottom: 40px;
+  font-size: 1.18em;
+  text-align: left;
+  max-width: 900px;
+}
+.about-team-section {
+  margin-top: 30px;
+  text-align: left;
+}
+.about-team-section h2 {
+  font-size: 2em;
+  margin-bottom: 24px;
+}
+.about-team-cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.about-team-card {
+  background: rgba(255,255,255,0.13);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  padding: 24px 18px;
+  width: 260px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-team-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #009688;
+}
+.about-team-info {
+  margin-top: 8px;
+}
+.about-team-name {
+  font-weight: bold;
+  font-size: 1.15em;
+  display: block;
+}
+.about-team-role {
+  background: #009688;
+  color: #fff;
+  border-radius: 8px;
+  padding: 3px 14px;
+  font-size: 0.98em;
+  margin: 8px 0 8px 0;
+  display: inline-block;
+}
+.about-social {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.about-title {
+  margin-left: 70px;
+}
+.about-social img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.92;
+  transition: opacity 0.2s;
+}
+.about-social img:hover {
+  opacity: 1;
+}
+/* About Page Styles */
+.about-section {
+  max-width: 900px;
+  margin: 40px auto 40px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 32px 32px 32px;
+  text-align: center;
+}
+.about-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 18px;
+}
+.about-section h2 {
+  margin-top: 32px;
+  font-size: 1.5em;
+  color: #009688;
+}
+.about-section ul {
+  list-style: disc inside;
+  text-align: left;
+  margin: 18px auto 18px 20%;
+  max-width: 500px;
+  color: #222;
+  font-size: 1.08em;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.team-member {
+  background: #f7fafd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 18px 22px;
+  width: 180px;
+  text-align: center;
+}
+.team-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.history-timeline {
+  text-align: left;
+  margin: 18px auto 18px 20%;
+  max-width: 500px;
+  color: #444;
+  font-size: 1.05em;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+/* Contact Page Styles */
+.contact-section {
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 32px 32px 32px;
+  text-align: center;
+}
+.contact-section h1 {
+  font-size: 2em;
+  margin-bottom: 18px;
+}
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.contact-section input,
+.contact-section textarea {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+.contact-section textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+.contact-section button[type="submit"] {
+  background: #009688;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1.1em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.contact-section button[type="submit"]:hover {
+  background: #00796b;
+}
+.contact-section #confirmationMessage {
+  color: #009688;
+  font-size: 1.1em;
+  margin-top: 18px;
+}
+/* Popup for search results */
+.search-popup {
+  position: fixed;
+  top: 80px;
+  right: 30px;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 24px 18px 18px 18px;
+  min-width: 340px;
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+}
+.result-card {
+  display: flex;
+  align-items: flex-start;
+  background: #f7fafd;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 12px;
+}
+.result-card img {
+  margin-right: 14px;
+}
+.result-info h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.1em;
+}
+.result-info p {
+  margin: 0;
+  color: #444;
+  font-size: 0.98em;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav input {
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+header {
+  background: url('image.jpg') center center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header-content {
+  text-align: left;
+  margin-left: 60px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px 50px;
+  border-radius: 12px;
+  max-width: 500px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.book-btn {
+  background: #009688;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.book-btn:hover {
+  background: #00796b;
+}
+
+#results {
+  margin: 20px;
+}
+
+#results div {
+  margin: 20px;
+}
+
+.beach-card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+}
